@@ -1,0 +1,71 @@
+.container-tarea {
+    list-style-type: none;
+    color: #785964;
+    border: 1px solid #F1FFFA;
+    border-radius: 12px;
+    width: 500px;
+    height: 50px;
+    margin: 12px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.completed-tarea {
+    text-decoration: line-through;
+}
+
+.completed-container {
+    background-color: #886b7579;
+}
+
+.container-tarea:hover {
+    background-color: #886b75;
+    color: #F1FFFA;
+
+}
+
+.container-tarea button {
+    border: none;
+    background: none;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.cancel-tarea {
+    font-size: 22px;
+    color: white;
+}
+
+.cancel-tarea:hover {
+    color: #cab2ba;
+}
+
+.cancel-tarea:active {
+    color: #442d35;
+}
+
+.no-mostrar {
+    display: none;
+}
+
+.check {
+    margin: 8px;
+    font-size: 18px;
+}
+
+.check:hover {
+    color: #cab2ba;
+}
+
+.check:active {
+    color: #442d35;
+}
+
+.checked {
+    color: white;
+}

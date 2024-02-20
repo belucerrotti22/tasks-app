@@ -1,0 +1,17 @@
+.loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-container p {
+    animation: fade 1s infinite; 
+    opacity: 0; 
+    color: #785964;
+    font-size: larger;
+}
+
+@keyframes fade {
+    0%, 100% { opacity: 0; } 
+    50% { opacity: 1; } 
+}
